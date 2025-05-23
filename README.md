@@ -1,7 +1,9 @@
-# magisk-module-installer
+### 用途
+文石的设备使用哪个过程中会出现时不时卡死，根据logcat是cpu热插拔的问题，所以刷入这个magisk模块可能能对这个卡顿起作用
+### 使用
+- 给设备安装magisk
+- 刷入本模块
+### 适用 
+我的是note3,所以最好你也是骁龙636或者660
 
-This repo only for magisk module template, please read [Developer Guides](https://topjohnwu.github.io/Magisk/guides.html) for instruction on how to create a Magisk Module Installer!.
-
-- Updated repo at     : 20200117
-- Magisk Compatibilty : 20.3+
 
