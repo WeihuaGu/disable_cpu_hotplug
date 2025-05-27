@@ -20,5 +20,5 @@ for j in 0 1 2 3; do
     echo "powersave" > /sys/devices/system/cpu/cpu${j}/cpufreq/scaling_governor
 done
 for k in 4 5 6 7; do
-    echo "schedutil" > /sys/devices/system/cpu/cpu${k}/cpufreq/scaling_governor
+    echo "powersave" > /sys/devices/system/cpu/cpu${k}/cpufreq/scaling_governor
 done

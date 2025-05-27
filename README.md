@@ -3,7 +3,9 @@
 ### 使用
 - 给设备安装magisk
 - 刷入本模块
+- 除了刷入本模块，最好在设备的/data/adb/service.d/文件夹下增加fix_cpu.sh,并且chmod a+x fix_cpu.sh确保运行
 ### 适用 
 我的是note3,所以最好你也是骁龙636或者660
+
 
 
